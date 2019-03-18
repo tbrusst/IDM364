@@ -1,0 +1,36 @@
+:root {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit
+}
+
+body {
+	background-color: #111;
+	color: #fff;
+	font: 100%/1.5 sans-serif;
+}
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: .5rem;
+	text-transform: uppercase;
+}
+
+.nav li a:hover {
+	background-color: darkblue;
+}

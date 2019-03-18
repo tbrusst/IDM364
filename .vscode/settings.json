@@ -1,0 +1,8 @@
+{
+	"files.associations": {
+		"**/examples/**/*.js": "javascriptreact",
+		"**/examples/04/event_handling/src/js/**/*.js": "javascript",
+		"**/examples/05/persisting_state/src/js/**/*.js": "javascript",
+		"**/examples/05/persisting_state-start/src/js/**/*.js": "javascript"
+	}
+}

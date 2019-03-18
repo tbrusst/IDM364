@@ -1,0 +1,14 @@
+:root {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit
+}
+
+body {
+	font: 100%/1.5 sans-serif;
+}
