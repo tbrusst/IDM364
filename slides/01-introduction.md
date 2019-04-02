@@ -22,7 +22,7 @@ theme: Dark Mode
 
 ^ The official React website states:
 
-^ The create of React, Jordan Walke, was originally solving a problem at Facebook: having multiple data sources update an autocomplete field. It is difficult to build and manage a complex web UI for front-end applications. React was born to help solve this problem.
+^ The creator of React, Jordan Walke, was originally solving a problem at Facebook: having multiple data sources update an autocomplete field. It is difficult to build and manage a complex web UI for front-end applications. React was born to help solve this problem.
 
 ---
 
