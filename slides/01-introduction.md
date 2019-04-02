@@ -79,16 +79,16 @@ const arr = [1, 2, 3, 4, 5];
 let arr2 = [];
 
 for (let i = 0; i < arr.length; i++) {
-  arr2[i] = arr[i]*2
+  arr2[i] = arr[i]
 }
 
 console.log('arr2', arr2);
-// arr2 [2, 4, 6, 8, 10]
+// arr2 [1, 2, 3, 4, 5]
 ```
 
 ^ Declarative style means developers write how it _should_ be, not what to do step-by-step (imperative). This reduces complexity and makes code easier to read and understand.
 
-^ Consider an example. You need to create an array (`arr2`) whose elements are the result of doubling elements of another array (`arr`). We can use a _for_ loop to iterate over one array and multiply each element by two.
+^ Consider an example. You need to create an array (`arr2`) whose elements are an exact clone of another array (`arr`). We can use a _for_ loop to iterate over one array and push the values into the new array.
 
 ---
 
@@ -96,15 +96,29 @@ console.log('arr2', arr2);
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
-const arr2 = arr.map((value) => value * 2);
+const arr2 = arr.map((value) => value);
 
 console.log('arr2', arr2);
-// arr2 [2, 4, 6, 8, 10]
+// arr2 [1, 2, 3, 4, 5]
 ```
 
 ^ The same logic can be written in a declarative style with the _map_ function.
 
-^ Each element in `arr` is mapped to an arrow function that reads in the value, and returns that value multiplied by two. The output array is the same as the previous example.
+^ Each element in `arr` is mapped to an arrow function that reads in the value, and returns that value, pushing it into the new array. The output array is the same as the previous example.
+
+---
+
+#### ES6 Declarative Style
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+const arr2 = [...arr];
+
+console.log('arr2', arr2);
+// arr2 [1, 2, 3, 4, 5]
+```
+
+^ Declarative style means we write code how it _should be_ instead of imperative step by step instructions. Using ES6 syntax we can simply say `aar2` should be a clone of `arr`.
 
 ---
 
@@ -335,8 +349,12 @@ ReactDom.render(
 
 ## For Next Week
 
-- install NodeJS & NPM
+- join IDM Discord server
+- Windows users: install [GIT Bash](https://gitforwindows.org)
+- install [Node.js](https://nodejs.org/en/) & NPM
 - read and review Webpack, Parcel, React-Scripts & Babel sites
+- review [command line notes](https://github.com/philsinatra/IDM-T380/blob/master/instructor_materials/02-command_line.md)
+- review [git notes](https://github.com/philsinatra/IDM-T380/blob/master/instructor_materials/03-git.md)
 
 ---
 

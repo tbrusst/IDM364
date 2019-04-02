@@ -24,6 +24,7 @@
 - [NPM](https://www.npmjs.com)
 - [ReactJS Devtools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 - [ReactJS Devtools for Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
+- [Windows GIT Bash](https://gitforwindows.org)
 - [eslint](https://eslint.org)
 - [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [webpack](https://webpack.js.org)
@@ -32,3 +33,4 @@
 - [babel](https://babeljs.io)
 - [Firebase](https://firebase.google.com)
 - [Bluehost](https://www.bluehost.com/track/philsinatra/)
+- [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/)

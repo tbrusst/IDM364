@@ -62,6 +62,6 @@ Your final project represents the culmination of the past ten weeks. This projec
 Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) under **Final Project**:
 
 1. A link to your self hosted website project page. From this page, I can fully engage the project and have access to all supplementary pages and functions.
-1. A link to your GitHub repository containing the code for your final project.
+1. A link to your GitHub repository containing the code for your final project. Your repository name must be formatted as follows: **idm364-pjs42** (replace pjs42 with your Drexel ID)
 
 **Late submissions receive zero points, no exceptions.**
